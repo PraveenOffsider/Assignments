@@ -1,0 +1,32 @@
+package week1;
+
+import java.net.StandardSocketOptions;
+
+public class mobileShop {
+    public static void main(String[] args) {
+
+        String brandName = "Oppo";
+
+        char logo = 'O';
+
+        short mobilePiece = (short) 43789;
+
+        int modelNo = 83;
+
+        long imeiNo = 85683959604284L;
+
+        float mobilePrice = 45637.25F;
+
+        boolean isDamaged = true;
+
+
+        System.out.println(" BrandName: " + brandName);
+        System.out.println(" TotalNumber of MobilePiece: " + mobilePiece);
+        System.out.println(" logo: "  + logo );
+        System.out.println(" modelno: " + modelNo);
+        System.out.println(" imeino: " + imeiNo);
+        System.out.println(" MobilePrice is: " + mobilePrice);
+        System.out.println(" Return if Mobile is Damaged: " + isDamaged);
+
+    }
+}
