@@ -1,0 +1,13 @@
+package week1;
+
+public class task2 {
+    public static void main(String[] args){
+        int a = -5;
+        int b = a * (-1);
+        if (a < 0) {
+            System.out.println("The given number converted into  Positive ===>" + b);}
+        else{
+            System.out.println("The given number is Positive ");
+        }
+    }
+}
